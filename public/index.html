@@ -11,32 +11,42 @@
 		<header>
 			<div class="container">
 				<img class="logo" src="assets/WB-Submark-CMYK.png" alt="" />
-				<nav>
+				<nav class="header-nav">
 					<ul>
 						<li><a href="/packages">Packages</a></li>
-						<li><a href="/faq">FAQ</a></li>
-						<li><a href="/contact">Get in Touch!</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li>
+							<a
+								href="https://www.honeybook.com/widget/w_bilbao_media_llc_170936/cf_id/5fda3e235ff8e50a0f01364c"
+								>Get in Touch!</a
+							>
+						</li>
 					</ul>
 				</nav>
 			</div>
 		</header>
-		<section class="hero">
+		<section class="hero scroller">
 			<!-- First container -->
 			<div class="container container-solid">
 				<div class="title-wrapper">
-					<h5>Whitney Bilbao</h5>
+					<h5>whitney bilbao</h5>
 					<h1>Photography</h1>
+					<button class="scroll-button">
+						<a id="scrollButton" href="#"
+							><img src="/public/assets/graphics/camera-icon-2.png" alt=""
+						/></a>
+					</button>
 				</div>
 			</div>
 			<!-- Second container -->
-			<div class="container container-image" aria-hidden="true">
+			<div class="container container-image" aria-hidden="true" id="scrollTo">
 				<div class="title-wrapper">
-					<h5>Whitney Bilbao</h5>
+					<h5>whitney bilbao</h5>
 					<h1>Photography</h1>
 				</div>
 			</div>
 		</section>
-		<section class="about">
+		<section class="about next" id="scrollToSection2">
 			<div class="container">
 				<div class="about-profile">
 					<div class="decor-div-1">
@@ -97,104 +107,88 @@
 				</div>
 			</div>
 		</section>
-		<section class="banner-divider">
-			<div class="image-divider parallax bg">
-				<h4>Let's go on an adventure!</h4>
+		<section class="banner-divider next">
+			<!-- First container -->
+			<div class="image-divider">
+				<div class="">
+					<h4>Let's go on an adventure!</h4>
+				</div>
 			</div>
 			<div class="color-divider">
-				<h3>A photographer who cares</h3>
-				<button class="inquire-button">
-					<a href="">Questions?</a>
-				</button>
+				<h3 class="">A photographer who cares</h3>
+				<button><a href="faq.html">Questions?</a></button>
 			</div>
 		</section>
-
-		<section class="accordion-section">
-			<div class="ia-container">
-				<figure>
-					<img
-						class="accordion-image"
-						src="/public/assets/whit-profile-new.jpg"
-						alt="image01"
-					/>
-					<input type="radio" name="radio-set" checked="checked" />
-					<figcaption><span>Title</span></figcaption>
-
-					<figure>
+		<section class="portfolio-preview">
+			<div class="spacer"></div>
+			<div class="parallax">
+				<div class="parallax-group">
+					<div class="parallax-layer parallax-layer--back portfolio preview-1">
+						<h2 class="portfolio-title">Seniors</h2>
 						<img
-							class="accordion-image"
-							src="/public/assets/whit-profile-new.jpg"
-							alt="image02"
+							class="senior-preview"
+							src="/public/assets/placeholders/seniors/alex-bracken-MqOnSJn43a4-unsplash.jpg"
+							alt=""
 						/>
-						<input type="radio" name="radio-set" checked="checked" />
-						<figcaption><span>Title</span></figcaption>
-
-						<figure>
-							<img
-								class="accordion-image"
-								src="/public/assets/whit-profile-new.jpg"
-								alt="image03"
-							/>
-							<input type="radio" name="radio-set" checked="checked" />
-							<figcaption><span>Title</span></figcaption>
-
-							<figure>
-								<img
-									class="accordion-image"
-									src="/public/assets/whit-profile-new.jpg"
-									alt="image04"
-								/>
-								<input type="radio" name="radio-set" checked="checked" />
-								<figcaption><span>Title</span></figcaption>
-
-								<figure>
-									<img
-										class="accordion-image"
-										src="/public/assets/whit-profile-new.jpg"
-										alt="image05"
-									/>
-									<input type="radio" name="radio-set" checked="checked" />
-									<figcaption><span>Title</span></figcaption>
-
-									<figure>
-										<img
-											class="accordion-image"
-											src="/public/assets/whit-profile-new.jpg"
-											alt="image06"
-										/>
-										<input type="radio" name="radio-set" checked="checked" />
-										<figcaption><span>Title</span></figcaption>
-
-										<figure>
-											<img
-												class="accordion-image"
-												src="/public/assets/whit-profile-new.jpg"
-												alt="image07"
-											/>
-											<input type="radio" name="radio-set" checked="checked" />
-											<figcaption><span>Title</span></figcaption>
-
-											<figure>
-												<img
-													class="accordion-image"
-													src="/public/assets/whit-profile-new.jpg"
-													alt="image08"
-												/>
-												<input
-													type="radio"
-													name="radio-set"
-													checked="checked"
-												/>
-												<figcaption><span>Title</span></figcaption>
-											</figure>
-										</figure>
-									</figure>
-								</figure>
-							</figure>
-						</figure>
-					</figure>
-				</figure>
+					</div>
+				</div>
+				<div class="parallax-group">
+					<div class="parallax-layer parallax-layer--back portfolio preview-2">
+						<h2 class="portfolio-title">Family</h2>
+						<img
+							class="senior-preview"
+							src="/public/assets/placeholders/seniors/alex-bracken-MqOnSJn43a4-unsplash.jpg"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="parallax-group">
+				<h2>Seniors</h2>
+				<img
+					class="senior-preview"
+					src="/public/assets/placeholders/seniors/alex-bracken-MqOnSJn43a4-unsplash.jpg"
+					alt=""
+				/>
 			</div>
 		</section>
+		<footer class="footer">
+			<div class="container">
+				<nav class="footer-nav">
+					<ul class="menu-1">
+						<li><a href="/packages">Packages</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="/contact">Get in Touch!</a></li>
+					</ul>
+					<ul class="menu-2">
+						<li>
+							<a
+								href="https://www.instagram.com/bilbaowhitneyphoto/"
+								target="_blank"
+								><img
+									src="/public/assets/graphics/instagram-icon.png"
+									alt=""
+									class="social-icon"
+							/></a>
+						</li>
+						<li>
+							<a
+								href="https://www.facebook.com/bilbaowhitneyphoto"
+								target="_blank"
+								><img
+									src="/public/assets/graphics/facebook-icon.png"
+									alt=""
+									class="social-icon"
+							/></a>
+						</li>
+					</ul>
+				</nav>
+
+				<a href="index.html" id="topButton"
+					><img src="/public/assets/WB-Logo-fullcolor-CMYK.png" alt=""
+				/></a>
+			</div>
+		</footer>
+		<script src="index.js"></script>
 	</body>
 </html>
