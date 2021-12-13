@@ -17,6 +17,10 @@
 
 /** General Styles  */
 
+:root {
+	--time-animation: 0.6s;
+}
+
 html {
 	scrollbar-width: none;
 }
@@ -98,6 +102,28 @@ body::-webkit-scrollbar {
 	color: var(--color-white);
 	font-size: 80px;
 	font-weight: 600;
+
+	transform: translateY(100vh);
+	transition: all var(--time-animation) ease-in-out;
+
+	z-index: 0;
+}
+
+.layout .section-1 {
+	transform: translateY(0);
+	z-index: 4;
+}
+
+.layout .section-2 {
+	z-index: 3;
+}
+
+.layout .section-3 {
+	z-index: 2;
+}
+
+.layout .section-4 {
+	z-index: 1;
 }
 
 div.wrapper {
