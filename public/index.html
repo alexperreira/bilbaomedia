@@ -9,54 +9,52 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<img class="logo" src="assets/WB-Submark-CMYK.png" alt="" />
-				<nav class="header-nav">
-					<ul>
-						<li><a href="/packages">Packages</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-						<li>
-							<a
-								href="https://www.honeybook.com/widget/w_bilbao_media_llc_170936/cf_id/5fda3e235ff8e50a0f01364c"
-								>Get in Touch!</a
-							>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
 		<div class="layout">
-			<div class="section-stick">
-				<div class="stick-active"></div>
-			</div>
-			<section class="hero section-1">
-				<!-- First container -->
-				<div class="container container-solid scroller">
-					<div class="title-wrapper">
-						<h5>whitney bilbao</h5>
-						<h1>Photography</h1>
-						<button class="scroll-button">
-							<a id="scrollButton" href="#"
-								><img src="/public/assets/graphics/camera-icon-2.png" alt=""
-							/></a>
-						</button>
-					</div>
+			<header>
+				<div class="container">
+					<a href="/public/index.html">
+						<img class="logo" src="assets/WB-Submark-CMYK.png" alt="" />
+					</a>
+					<nav class="header-nav">
+						<ul>
+							<li><a href="/packages">Packages</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li>
+								<a
+									href="https://www.honeybook.com/widget/w_bilbao_media_llc_170936/cf_id/5fda3e235ff8e50a0f01364c"
+									>Get in Touch!</a
+								>
+							</li>
+						</ul>
+					</nav>
 				</div>
-				<!-- Second container -->
-				<div class="container container-image" aria-hidden="true" id="scrollTo">
-					<div class="title-wrapper">
-						<h5>whitney bilbao</h5>
-						<h1>Photography</h1>
-						<button class="scroll-button">
-							<a id="scrollButton" href="#"
-								><img src="/public/assets/graphics/camera-icon-2.png" alt=""
-							/></a>
-						</button>
+				<section class="hero">
+					<!-- First container -->
+					<div class="container container-solid">
+						<div class="title-wrapper">
+							<h5>whitney bilbao</h5>
+							<h1>Photography</h1>
+							<button class="scroll-button">
+								<a id="scrollButton" href="#"
+									><img src="/public/assets/graphics/camera-icon-2.png" alt=""
+								/></a>
+							</button>
+						</div>
 					</div>
-				</div>
-			</section>
-			<section class="about next section-2" id="scrollToSection2">
+					<!-- Second container -->
+				</section>
+				<section class="hero" aria-hidden="true">
+					<div class="container container-image" id="scrollTo">
+						<div class="title-wrapper">
+							<h5>whitney bilbao</h5>
+							<h1>Photography</h1>
+						</div>
+					</div>
+				</section>
+			</header>
+			<!-- Change styling and layout. Get rid of divs within section-1 and make it two full size sections. -->
+			<!-- Removed scroller class -->
+			<section class="about" id="aboutSection">
 				<div class="container">
 					<div class="about-profile">
 						<div class="decor-div-1">
@@ -118,7 +116,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="banner-divider next section-3">
+			<section class="banner-divider next section-4">
 				<!-- First container -->
 				<div class="image-divider">
 					<div class="">
@@ -130,82 +128,48 @@
 					<button><a href="faq.html">Questions?</a></button>
 				</div>
 			</section>
-			<section class="portfolio-preview section-4">
-				<div class="spacer"></div>
-				<div class="parallax">
-					<div class="parallax-group">
-						<div
-							class="parallax-layer parallax-layer--back portfolio preview-1"
-						>
-							<h2 class="portfolio-title">Seniors</h2>
-							<img
-								class="senior-preview"
-								src="/public/assets/placeholders/seniors/alex-bracken-MqOnSJn43a4-unsplash.jpg"
-								alt=""
-							/>
-						</div>
-					</div>
-					<div class="parallax-group">
-						<div
-							class="parallax-layer parallax-layer--back portfolio preview-2"
-						>
-							<h2 class="portfolio-title">Family</h2>
-							<img
-								class="senior-preview"
-								src="/public/assets/placeholders/seniors/alex-bracken-MqOnSJn43a4-unsplash.jpg"
-								alt=""
-							/>
-						</div>
-					</div>
+
+			<section class="portfolio"></section>
+
+			<footer class="footer">
+				<div class="container">
+					<nav class="footer-nav">
+						<ul class="menu-1">
+							<li><a href="/packages">Packages</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="/contact">Get in Touch!</a></li>
+						</ul>
+						<ul class="menu-2">
+							<li>
+								<a
+									href="https://www.instagram.com/bilbaowhitneyphoto/"
+									target="_blank"
+									><img
+										src="/public/assets/graphics/instagram-icon.png"
+										alt=""
+										class="social-icon"
+								/></a>
+							</li>
+							<li>
+								<a
+									href="https://www.facebook.com/bilbaowhitneyphoto"
+									target="_blank"
+									><img
+										src="/public/assets/graphics/facebook-icon.png"
+										alt=""
+										class="social-icon"
+								/></a>
+							</li>
+						</ul>
+					</nav>
+
+					<a href="index.html" id="topButton"
+						><img src="/public/assets/WB-Logo-fullcolor-CMYK.png" alt=""
+					/></a>
 				</div>
-				<div class="parallax-group">
-					<h2>Seniors</h2>
-					<img
-						class="senior-preview"
-						src="/public/assets/placeholders/seniors/alex-bracken-MqOnSJn43a4-unsplash.jpg"
-						alt=""
-					/>
-				</div>
-			</section>
+			</footer>
 		</div>
 
-		<footer class="footer">
-			<div class="container">
-				<nav class="footer-nav">
-					<ul class="menu-1">
-						<li><a href="/packages">Packages</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-						<li><a href="/contact">Get in Touch!</a></li>
-					</ul>
-					<ul class="menu-2">
-						<li>
-							<a
-								href="https://www.instagram.com/bilbaowhitneyphoto/"
-								target="_blank"
-								><img
-									src="/public/assets/graphics/instagram-icon.png"
-									alt=""
-									class="social-icon"
-							/></a>
-						</li>
-						<li>
-							<a
-								href="https://www.facebook.com/bilbaowhitneyphoto"
-								target="_blank"
-								><img
-									src="/public/assets/graphics/facebook-icon.png"
-									alt=""
-									class="social-icon"
-							/></a>
-						</li>
-					</ul>
-				</nav>
-
-				<a href="index.html" id="topButton"
-					><img src="/public/assets/WB-Logo-fullcolor-CMYK.png" alt=""
-				/></a>
-			</div>
-		</footer>
 		<script src="index.js"></script>
 	</body>
 </html>
